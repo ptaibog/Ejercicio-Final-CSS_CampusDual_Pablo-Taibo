@@ -1,0 +1,70 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(./background_register.jpg);
+  background-size: 210%;
+}
+h1{
+  margin: 0;
+}
+h2{
+  margin: 2%;
+}
+#contenedor{
+  background-color: #b1858e;
+  padding: 30px;
+  margin-top: 13%;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.container_section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+#direccion_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+#direccion_container .completo input{
+  width: 90%;
+  margin-bottom: 4%;
+}
+#provincia, #pais{
+  width: 93%;
+}
+.container_section .completo input{
+  width: 90%;
+  margin-bottom: 4%;
+}
+#div_button button {
+  padding: 10px 40px;
+  background-color: #333333;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+#div_button button:hover {
+  background-color: #575555;
+}
+input{
+  padding: 5px;
+  background-color: #c0b8b0;
+  border-width: 0.5px;
+  border-color: rgb(197, 181, 157);
+}
+select{
+  padding: 5px;
+  background-color: #c0b8b0;
+  border-width: 0.5px;
+  border-color: rgb(197, 181, 157);
+}

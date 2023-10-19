@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #bcbeb1;
+}
+header {
+  background-image: url(./comida.jpg);
+  background-size: 50%;
+  padding: 5%;
+}
+header a{
+  text-decoration: none;
+}
+#header-div {
+  background-color: rgba(255, 0, 0, 0.349);
+  margin: 0;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 2px;
+}
+h1, h2{
+  color: white;
+  margin: 0;
+  text-align: center;
+  padding: 4%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+h2{
+  font-size: large;
+}
+nav{
+  background-color: rgb(92, 25, 25);
+  padding: 10px;
+}
+#title_section{
+  color: rgb(92, 25, 25);
+  padding: 0;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.promociones{
+  background-color: white;
+  padding: 20px;
+  margin-top: 1%;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: grid;
+  justify-content: center;
+}
+.promocion{
+  background-color: rgb(230, 189, 137);
+  padding: 30px;
+  margin: 6% 5% 1% 4%;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.promocion img{
+  width: 50%;
+}
+.promocion img:hover{
+  transform: scale(110%);
+}
+.promocion p{
+  text-align: left;
+}
+footer{
+  background-color: rgb(92, 25, 25);
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 1024px) {
+  .promociones{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .promociones {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px) {
+  .promociones {
+    grid-template-columns: 1fr;
+  }
+}
